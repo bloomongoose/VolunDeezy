@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45664B7C2A0AFB1900B70149 /* VolunDeezyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664B7B2A0AFB1900B70149 /* VolunDeezyApp.swift */; };
+		45664B7E2A0AFB1900B70149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664B7D2A0AFB1900B70149 /* ContentView.swift */; };
+		45664B802A0AFB1B00B70149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45664B7F2A0AFB1B00B70149 /* Assets.xcassets */; };
+		45664B842A0AFB1B00B70149 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45664B832A0AFB1B00B70149 /* Preview Assets.xcassets */; };
+		45664B8B2A0B021900B70149 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664B8A2A0B021900B70149 /* LoginView.swift */; };
+		45664B8D2A0B143100B70149 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664B8C2A0B143100B70149 /* SignUpView.swift */; };
+		45664B8F2A0B2F4100B70149 /* MapResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664B8E2A0B2F4100B70149 /* MapResultView.swift */; };
+		45664B912A0C56A700B70149 /* LandingPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664B902A0C56A700B70149 /* LandingPageView.swift */; };
+		45664B952A0C5CED00B70149 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664B942A0C5CED00B70149 /* SearchView.swift */; };
+		45664B972A0C5CFA00B70149 /* RewardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664B962A0C5CFA00B70149 /* RewardsView.swift */; };
+		45664B9D2A0C5E0100B70149 /* TabNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664B9C2A0C5E0100B70149 /* TabNavigationView.swift */; };
+		45664BA12A1590CB00B70149 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664BA02A1590CB00B70149 /* ProfileView.swift */; };
+		45664BA32A15957000B70149 /* FocusHopeOpportunity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664BA22A15957000B70149 /* FocusHopeOpportunity.swift */; };
+		45664BA52A1595EE00B70149 /* FocusHopeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664BA42A1595ED00B70149 /* FocusHopeView.swift */; };
+		45664BA72A1595F500B70149 /* GreeningDetroitOpportunity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664BA62A1595F500B70149 /* GreeningDetroitOpportunity.swift */; };
+		45664BA92A1595FB00B70149 /* GreeningDetroitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664BA82A1595FB00B70149 /* GreeningDetroitView.swift */; };
+		45664BAB2A15960B00B70149 /* MichiganHumaneOpportunity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664BAA2A15960B00B70149 /* MichiganHumaneOpportunity.swift */; };
+		45664BAD2A15978E00B70149 /* MichiganHumaneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664BAC2A15978E00B70149 /* MichiganHumaneView.swift */; };
+		45664BAF2A1598F900B70149 /* GridResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45664BAE2A1598F900B70149 /* GridResultsView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45664B782A0AFB1900B70149 /* VolunDeezy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolunDeezy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45664B7B2A0AFB1900B70149 /* VolunDeezyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolunDeezyApp.swift; sourceTree = "<group>"; };
+		45664B7D2A0AFB1900B70149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		45664B7F2A0AFB1B00B70149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45664B812A0AFB1B00B70149 /* VolunDeezy.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VolunDeezy.entitlements; sourceTree = "<group>"; };
+		45664B832A0AFB1B00B70149 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		45664B8A2A0B021900B70149 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		45664B8C2A0B143100B70149 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		45664B8E2A0B2F4100B70149 /* MapResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapResultView.swift; sourceTree = "<group>"; };
+		45664B902A0C56A700B70149 /* LandingPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageView.swift; sourceTree = "<group>"; tabWidth = 9; };
+		45664B942A0C5CED00B70149 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		45664B962A0C5CFA00B70149 /* RewardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsView.swift; sourceTree = "<group>"; };
+		45664B9C2A0C5E0100B70149 /* TabNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabNavigationView.swift; sourceTree = "<group>"; };
+		45664BA02A1590CB00B70149 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		45664BA22A15957000B70149 /* FocusHopeOpportunity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FocusHopeOpportunity.swift; path = ../../VolunDeezy4/VolunDeezy4/FocusHopeOpportunity.swift; sourceTree = "<group>"; };
+		45664BA42A1595ED00B70149 /* FocusHopeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FocusHopeView.swift; path = ../../VolunDeezy4/VolunDeezy4/FocusHopeView.swift; sourceTree = "<group>"; };
+		45664BA62A1595F500B70149 /* GreeningDetroitOpportunity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GreeningDetroitOpportunity.swift; path = ../../VolunDeezy4/VolunDeezy4/GreeningDetroitOpportunity.swift; sourceTree = "<group>"; };
+		45664BA82A1595FB00B70149 /* GreeningDetroitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GreeningDetroitView.swift; path = ../../VolunDeezy4/VolunDeezy4/GreeningDetroitView.swift; sourceTree = "<group>"; };
+		45664BAA2A15960B00B70149 /* MichiganHumaneOpportunity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MichiganHumaneOpportunity.swift; path = ../../VolunDeezy4/VolunDeezy4/MichiganHumaneOpportunity.swift; sourceTree = "<group>"; };
+		45664BAC2A15978E00B70149 /* MichiganHumaneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MichiganHumaneView.swift; path = ../../VolunDeezy4/VolunDeezy4/MichiganHumaneView.swift; sourceTree = "<group>"; };
+		45664BAE2A1598F900B70149 /* GridResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridResultsView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45664B752A0AFB1900B70149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45664B6F2A0AFB1900B70149 = {
+			isa = PBXGroup;
+			children = (
+				45664B7A2A0AFB1900B70149 /* VolunDeezy */,
+				45664B792A0AFB1900B70149 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45664B792A0AFB1900B70149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45664B782A0AFB1900B70149 /* VolunDeezy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45664B7A2A0AFB1900B70149 /* VolunDeezy */ = {
+			isa = PBXGroup;
+			children = (
+				45664B7F2A0AFB1B00B70149 /* Assets.xcassets */,
+				45664B7D2A0AFB1900B70149 /* ContentView.swift */,
+				45664B902A0C56A700B70149 /* LandingPageView.swift */,
+				45664B8A2A0B021900B70149 /* LoginView.swift */,
+				45664B8E2A0B2F4100B70149 /* MapResultView.swift */,
+				45664B822A0AFB1B00B70149 /* Preview Content */,
+				45664B962A0C5CFA00B70149 /* RewardsView.swift */,
+				45664B942A0C5CED00B70149 /* SearchView.swift */,
+				45664B8C2A0B143100B70149 /* SignUpView.swift */,
+				45664B812A0AFB1B00B70149 /* VolunDeezy.entitlements */,
+				45664B7B2A0AFB1900B70149 /* VolunDeezyApp.swift */,
+				45664B9C2A0C5E0100B70149 /* TabNavigationView.swift */,
+				45664BA02A1590CB00B70149 /* ProfileView.swift */,
+				45664BAA2A15960B00B70149 /* MichiganHumaneOpportunity.swift */,
+				45664BAC2A15978E00B70149 /* MichiganHumaneView.swift */,
+				45664BA62A1595F500B70149 /* GreeningDetroitOpportunity.swift */,
+				45664BA82A1595FB00B70149 /* GreeningDetroitView.swift */,
+				45664BA42A1595ED00B70149 /* FocusHopeView.swift */,
+				45664BA22A15957000B70149 /* FocusHopeOpportunity.swift */,
+				45664BAE2A1598F900B70149 /* GridResultsView.swift */,
+			);
+			path = VolunDeezy;
+			sourceTree = "<group>";
+		};
+		45664B822A0AFB1B00B70149 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				45664B832A0AFB1B00B70149 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45664B772A0AFB1900B70149 /* VolunDeezy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45664B872A0AFB1B00B70149 /* Build configuration list for PBXNativeTarget "VolunDeezy" */;
+			buildPhases = (
+				45664B742A0AFB1900B70149 /* Sources */,
+				45664B752A0AFB1900B70149 /* Frameworks */,
+				45664B762A0AFB1900B70149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolunDeezy;
+			productName = VolunDeezy;
+			productReference = 45664B782A0AFB1900B70149 /* VolunDeezy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45664B702A0AFB1900B70149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					45664B772A0AFB1900B70149 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 45664B732A0AFB1900B70149 /* Build configuration list for PBXProject "VolunDeezy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45664B6F2A0AFB1900B70149;
+			productRefGroup = 45664B792A0AFB1900B70149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45664B772A0AFB1900B70149 /* VolunDeezy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45664B762A0AFB1900B70149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45664B842A0AFB1B00B70149 /* Preview Assets.xcassets in Resources */,
+				45664B802A0AFB1B00B70149 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45664B742A0AFB1900B70149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45664BA72A1595F500B70149 /* GreeningDetroitOpportunity.swift in Sources */,
+				45664BA92A1595FB00B70149 /* GreeningDetroitView.swift in Sources */,
+				45664B8D2A0B143100B70149 /* SignUpView.swift in Sources */,
+				45664BA52A1595EE00B70149 /* FocusHopeView.swift in Sources */,
+				45664BA32A15957000B70149 /* FocusHopeOpportunity.swift in Sources */,
+				45664B912A0C56A700B70149 /* LandingPageView.swift in Sources */,
+				45664BA12A1590CB00B70149 /* ProfileView.swift in Sources */,
+				45664BAF2A1598F900B70149 /* GridResultsView.swift in Sources */,
+				45664B8B2A0B021900B70149 /* LoginView.swift in Sources */,
+				45664B8F2A0B2F4100B70149 /* MapResultView.swift in Sources */,
+				45664B952A0C5CED00B70149 /* SearchView.swift in Sources */,
+				45664B972A0C5CFA00B70149 /* RewardsView.swift in Sources */,
+				45664BAB2A15960B00B70149 /* MichiganHumaneOpportunity.swift in Sources */,
+				45664BAD2A15978E00B70149 /* MichiganHumaneView.swift in Sources */,
+				45664B9D2A0C5E0100B70149 /* TabNavigationView.swift in Sources */,
+				45664B7E2A0AFB1900B70149 /* ContentView.swift in Sources */,
+				45664B7C2A0AFB1900B70149 /* VolunDeezyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		45664B852A0AFB1B00B70149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45664B862A0AFB1B00B70149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		45664B882A0AFB1B00B70149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VolunDeezy/VolunDeezy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VolunDeezy/Preview Content\"";
+				DEVELOPMENT_TEAM = 5W78B2J2SZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VolunDeezy.VolunDeezy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45664B892A0AFB1B00B70149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VolunDeezy/VolunDeezy.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VolunDeezy/Preview Content\"";
+				DEVELOPMENT_TEAM = 5W78B2J2SZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VolunDeezy.VolunDeezy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45664B732A0AFB1900B70149 /* Build configuration list for PBXProject "VolunDeezy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45664B852A0AFB1B00B70149 /* Debug */,
+				45664B862A0AFB1B00B70149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45664B872A0AFB1B00B70149 /* Build configuration list for PBXNativeTarget "VolunDeezy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45664B882A0AFB1B00B70149 /* Debug */,
+				45664B892A0AFB1B00B70149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45664B702A0AFB1900B70149 /* Project object */;
+}
